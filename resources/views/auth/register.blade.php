@@ -38,6 +38,14 @@
                     <input type="text" name="username" class="form-control" placeholder="Username" required="">
                 </div>
                 <div class="form-group">
+                    <label><i class="fa fa-user"></i> Role</label>
+                    <select class="form-select" aria-label="Default select example" name="role">
+                        <option selected>Piih salah satu</option>
+                        <option value="Pasien">Pasien</option>
+                        <option value="Dokter">Dokter</option>
+                      </select>
+                </div>
+                <div class="form-group">
                     <label><i class="fa fa-key"></i> Password</label>
                     <input type="password" name="password" class="form-control" placeholder="Password" required="">
                 </div>
